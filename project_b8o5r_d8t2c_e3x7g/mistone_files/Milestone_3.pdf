@@ -1,0 +1,71 @@
+.top_heading {
+    margin: auto;
+    text-align: center;
+    padding:20px;
+    color: #6A4C9C;
+    font-family: 'Press Start 2P';font-size: 27px;
+}
+body {
+    background-color:#81C7D4 ;
+}
+
+.navBar {
+    padding: 20px 20px;
+    margin: auto;
+    text-align: center;
+}
+.navBar button {
+    font-size: 25;
+    margin: auto;
+    padding: 15px 20px;
+    color: #E03C8A;
+    border: 4px;
+    border-style: groove;
+    border-radius: 5px;
+    border-color: #64363C;
+    font-family: 'Press Start 2P';
+    margin-left: 20px;
+    background-color: #ECB88A;
+}
+.navBar input{
+    font-size: 20px;
+    margin: auto;
+    padding: 15px 20px;
+    color: #E03C8A;
+    border: 4px;
+    border-style: groove;
+    border-radius: 5px;
+    border-color: #64363C;
+    font-family: 'Press Start 2P';
+    margin-left: 20px;
+    background-color: #ECB88A;
+}
+
+.mainDisplay {
+    border-style: solid;
+    border-width: 5px;
+    padding: 10px;
+}
+.insertPanel{
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    padding: 10px;
+}
+.miniBar{
+    border-style: dashed;
+    border-width: 0px;
+    /* place-items: left; */
+}
+.teamFilter{
+    margin: auto;
+    padding: 2px 2px;
+    color: #E03C8A;
+    border: 2px;
+    border-style: groove;
+    border-radius: 2px;
+    border-color: #64363C;
+    font-family: 'Press Start 2P';
+    margin-left: 5px;
+    background-color: #ECB88A;
+}

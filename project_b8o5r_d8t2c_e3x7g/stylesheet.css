@@ -1,0 +1,134 @@
+.top_heading {
+    margin: auto;
+    text-align: center;
+    padding:20px;
+    color: #6A4C9C;
+    font-family: 'Press Start 2P';font-size: 27px;
+}
+body {
+    background-color:#81C7D4 ;
+}
+
+.navBar {
+    padding: 20px 20px;
+    margin: auto;
+    text-align: center;
+}
+.navBar button {
+    font-size: 25;
+    margin: auto;
+    padding: 15px 20px;
+    color: #E03C8A;
+    border: 4px;
+    border-style: groove;
+    border-radius: 5px;
+    border-color: #64363C;
+    font-family: 'Press Start 2P';
+    margin-left: 20px;
+    background-color: #ECB88A;
+}
+.navBar input{
+    font-size: 20px;
+    margin: auto;
+    padding: 15px 20px;
+    color: #E03C8A;
+    border: 4px;
+    border-style: groove;
+    border-radius: 5px;
+    border-color: #64363C;
+    font-family: 'Press Start 2P';
+    margin-left: 20px;
+    background-color: #ECB88A;
+}
+.miniBar{
+        /* display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 5px; */
+        height: 30px;
+        border: black 2px;
+
+}
+
+.mainDisplay {
+    /* display: grid;
+    grid-template-rows: 1fr 10fr; */
+    /* grid-gap: 10px; */
+    border-style: solid;
+    border-width: 5px;
+    padding: 10px;
+}
+.insertPanel{
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    padding: 10px;
+    overflow-x: auto;
+}
+
+.teamFilter{
+    margin: auto;
+    padding: 2px 2px;
+    color: #E03C8A;
+    border: 2px;
+    border-style: groove;
+    border-radius: 2px;
+    border-color: #64363C;
+    font-family: 'Press Start 2P';
+    margin-left: 5px;
+    background-color: #ECB88A;
+}
+
+.dropdown{
+    border: black;
+}
+div.displayResult{ 
+    overflow-y: scroll; 
+    height:400px;
+
+    border-style: solid;
+    border-width: 5px;
+}
+
+table{
+    width: 100%;
+    text-align:center;
+    margin: 0px;
+    border-collapse: collapse;
+    /* background-color: #eea2a4; */
+}
+tr{
+    border-bottom: 2px,solid;
+}
+tr:nth-child(odd){
+    background-color: #66a9c9;
+}
+th {
+    padding: 10px;
+    text-align: center;
+    color: black;
+    font-family: 'Anton', sans-serif;
+    font-size: 25px;
+
+}
+td{
+    padding: 10px;
+    text-align: center;
+    color: #ddc871;
+    font-family: 'Anton', sans-serif;
+    font-size: 25px;
+    /* border-style: solid; */
+
+
+}
+
+td input{
+    padding: 10px;
+    text-align: center;
+    color: #ddc871;
+    font-family: 'Anton', sans-serif;
+    font-size: 25px;
+    /* border-style: solid; */
+
+    background: none;
+    border: none;
+}
